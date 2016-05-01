@@ -79,8 +79,9 @@ body {
 }
 
 #content {
-  width: 1000px;
+  width: 1076px;
   margin: 0 auto;
+  padding-top: 50px;
 }
 
 #footer {
@@ -182,28 +183,11 @@ body {
 
 /* end banner */
 /* content */
-.low_l {
-  float: left;
-}
-
-.low_r {
-  float: right;
-}
-
-.c_low {
-  width: 462px;
-  padding-top: 50px;
-}
-
-.c_time {
-  width: 76px;
-  height: 100%;
-}
-
 .i_box {
   width: 460px;
+  float: left;
+  margin: 0 38px 60px;
   border: solid 1px #efeeee;
-  margin-bottom: 60px;
   box-shadow: 1px 1px 1px 1px #efeeee;
 }
 
@@ -358,6 +342,9 @@ body {
   height: 183px;
   border-bottom: solid 1px #f0f0f0;
 }
+.m_arttop .title {
+  width: 700px;
+}
 .m_arttop h3 {
   height: 74px;
   line-height: 74px;
@@ -510,6 +497,11 @@ body {
   width: 51px;
   height: 44px;
   background-position: -132px 0;
+}
+
+.m_loading {
+  width: 1076px;
+  margin: 0 auto;
 }
 
 .m_comment {

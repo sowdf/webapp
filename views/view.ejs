@@ -2,7 +2,7 @@
 <div class="m_content">
     <div class="m_arttop clear">
         <div class="title fl">
-            <h3>谈谈 jQuery 中的防冲突（noConflict）机制</h3>
+            <h3><%=post.title%></h3>
             <div class="tag">
                 <span class="fl">原创作品</span>
                 <p>分类：<a href="#">程序开发</a></p>
@@ -20,14 +20,14 @@
                 <img src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1720620006,1140887170&fm=116&gp=0.jpg" alt=""/>
             </div>
             <div class="aut_info fr">
-                <span class="name">Sowdf</span>
-                <span class="zy">厦门/前端设计师</span>
-                <span class="date">2016-04-14 发布</span>
+                <span class="name">战略性撤退</span>
+                <span class="zy">厦门/前端工程师</span>
+                <span class="date"><%=post.time.day%>发布</span>
             </div>
         </div>
     </div>
     <div class="m_arctical">
-        <img src="/images/arctical.png" alt=""/>
+        <%=post.post%>
     </div>
     <div class="m_artbottom">
         <a href="#" class="clt"><i></i>收藏</a>
