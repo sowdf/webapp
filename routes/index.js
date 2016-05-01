@@ -24,7 +24,6 @@ module.exports = function(app){
         console.log('error',err);
         return res.redirect('/list');
       }
-      console.log(doc);
       res.render('view',{
         title : doc.title,
         post : doc,

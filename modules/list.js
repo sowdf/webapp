@@ -25,9 +25,6 @@ List.get = function(callback){
     })
 }
 List.getOne = function(name,day,title,callback){
-    console.log(name);
-    console.log(day);
-    console.log(title);
     //打开数据库
     mongodb.open(function(err,db){
         if(err){
