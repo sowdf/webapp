@@ -1,4 +1,5 @@
-var mongodb = require('../modules/db.js');
+var mongodb = require('../modules/db.js'),
+    markdown = require('markdown').markdown;
 function List(){
 }
 
@@ -46,6 +47,7 @@ List.getOne = function(name,day,title,callback){
                 if(err){
                     return callback(err);
                 }
+                doc.post = markdown.toHTML(doc.post);
                 callback(null,doc);//返回一片查询到的文章
             })
         })
